@@ -5,7 +5,7 @@
 ![image](https://github.com/penghero/PGBubble/blob/master/bubble.gif)
 # 部分讲解
 1.开源属性及方法
-
+```
 // 气泡类型
 typedef NS_ENUM(NSInteger, PGBubbleType) {
     PGBubbleType_Default, // 默认样式
@@ -78,8 +78,9 @@ typedef NS_ENUM(NSInteger, PGBubbleType) {
 -(void)showWithView:(UIView *)view;
 /// 移除
 - (void)dismiss;
-
-2.用例
+```
+2.使用-用例
+```
     [self dismissBubble];
     self.bubble = [[PGBubble alloc] initWithFrame:CGRectMake(0, 0, 120, 250)];
     self.bubble.triangleH = 12;
@@ -127,4 +128,4 @@ typedef NS_ENUM(NSInteger, PGBubbleType) {
         self.bubble.descLabel.textColor = UIColor.whiteColor;
     }    
     [self.bubble showWithView:view];
-
+```
