@@ -4,8 +4,8 @@
 //
 //  Created by mac on 2017/10/19.
 //  Copyright © 2017年 Coder3. All rights reserved.
-//
-
+//  请务 删除
+//  作者github地址： https://github.com/penghero/PGBubble
 #import "UIView+MGExtension.h"
 #import <objc/runtime.h>
 

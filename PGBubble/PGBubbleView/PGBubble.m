@@ -4,8 +4,8 @@
 //
 //  Created by 陈鹏 on 2019/11/18.
 //  Copyright © 2019 penggege.CP. All rights reserved.
-//
-
+//  请务 删除
+//  作者github地址： https://github.com/penghero/PGBubble
 #import "PGBubble.h"
 #import "UIView+MGExtension.h"
 
